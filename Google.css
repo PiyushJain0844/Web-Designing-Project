@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #202124;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  font-size: 14px;
+}
+
+header a {
+  color: #202124;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.signin {
+  background: #1a73e8;
+  color: #ffffff;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Main */
+main {
+  flex: 1;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.logo {
+  width: 270px;
+  margin-bottom: 25px;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 620px;
+  margin: auto;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+}
+
+.search-bar:hover {
+  box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Icons */
+.plus {
+  font-size: 20px;
+  color: #5f6368;
+}
+
+.icon {
+  width: 22px;
+  cursor: pointer;
+}
+
+/* AI Button */
+.ai-btn {
+  border: 1px solid #dadce0;
+  background: #f8f9fa;
+  border-radius: 18px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 25px;
+}
+
+.buttons button {
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  padding: 10px 16px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  border: 1px solid #dadce0;
+}
+
+/* Footer */
+footer {
+  background: #f2f2f2;
+  padding: 15px 25px;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+footer a {
+  color: #70757a;
+  margin-right: 15px;
+  text-decoration: none;
+} 
