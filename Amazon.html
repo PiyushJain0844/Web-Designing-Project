@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+
+  <link rel="stylesheet" href="Amazon.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">amazon<span>.in</span></div>
+    <div class="location">
+      Deliver to <br>
+      <strong>India</strong>
+    </div>
+
+    <form class="search-bar">
+
+      <select>
+        <option value="all">All</option>
+        <option value="electronics">Electronics</option>
+        <option value="fashion">Fashion</option>
+        <option value="home">Home</option>
+        <option value="beauty">Beauty</option>
+      </select>
+
+      <input type="text" placeholder="Search Amazon">
+
+      <button type="submit">🔍</button>
+
+    </form>
+
+    <div class="nav-links">
+      <div>Hello, Sign In</div>
+      <div>Returns & Orders</div>
+      <div>Prime</div>
+    </div>
+
+    <div class="cart">
+      🛒 Cart <span id="cartCount">0</span>
+    </div>
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-message">
+      Welcome to Amazon
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="productContainer"> </section>
+
+  <!-- CART PANEL -->
+  <div class="cart-panel" id="cartPanel">
+    <h2>Your Cart</h2>
+    <div id="cartItems"></div>
+    <h3>
+      Total: ₹<span id="cartTotal">0</span>
+    </h3>
+
+    <button onclick="checkout()">
+      Checkout
+    </button>
+
+  </div>
+
+  <!-- AI CHATBOT -->
+  <button class="chat-toggle" onclick="toggleChat()">
+    🤖
+  </button>
+
+  <div class="chatbox" id="chatbox">
+    <div class="chat-header">
+      Amazon AI Assistant
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="message bot">
+        Hello 👋 <br>
+        How can I help you today?
+      </div>
+
+    </div>
+
+    <div class="chat-input">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Ask something..."
+      >
+
+      <button onclick="sendMessage()">
+        Send
+      </button>
+
+      <button onclick="startVoice()">
+        🎤
+      </button>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    Amazon Clone © 2026
+  </footer>
+
+  <script src="Amazon.js"></script>
+
+</body>
+</html> 
