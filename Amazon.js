@@ -19,11 +19,11 @@ const products = [
   { id: 15, name: "Bedsheet Set", category: "home", price: 1099, rating: "★★★★☆", image: "https://images.unsplash.com/photo-1616627561950-9f746e330187?w=600" },
   { id: 16, name: "Wall Clock", category: "home", price: 649, rating: "★★★☆☆", image: "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=600" },
   { id: 17, name: "Office Chair", category: "home", price: 4999, rating: "★★★★☆", image: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=600" },
-  { id: 18, name: "Dinner Plate Set", category: "home", price: 1399, rating: "★★★★☆", image: "https://images.unsplash.com/photo-1603199506016-b9a594b593c0?w=600" },
+  { id: 18, name: "Dinner Plate Set", category: "home", price: 1399, rating: "★★★★☆", image: "https://stehlen.in/cdn/shop/files/StehlenIndianRoundDinnerware_Puremelamine_31PCKitchenSetforhome-GREENSAPPHIRE2_grande.webp?v=1765613958" },
 
   { id: 19, name: "Face Wash", category: "beauty", price: 249, rating: "★★★★☆", image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600" },
   { id: 20, name: "Perfume", category: "beauty", price: 1199, rating: "★★★★★", image: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600" },
-  { id: 21, name: "Hair Dryer", category: "beauty", price: 1599, rating: "★★★★☆", image: "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=600" },
+  { id: 21, name: "Hair Dryer", category: "beauty", price: 1599, rating: "★★★★☆", image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQK10Pd3_pXH4K0dtQznAimnJ0_LHfZZ2f81vH83jZmFeLeftE-p5VgAnuH-ltOAeNO0gPxI0AMh6jbup5Z3MaCsmLPRZoifdqAaDvn7-3AX4h39yTn6wzpVg" },
   { id: 22, name: "Makeup Kit", category: "beauty", price: 999, rating: "★★★★☆", image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600" }
 ];
 
